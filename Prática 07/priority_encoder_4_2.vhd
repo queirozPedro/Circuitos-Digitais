@@ -19,6 +19,6 @@ begin
          "00";
 
     V <= '1' when X /= "1111" else
-         '1';
+         '0';
 
 end behavioral;

@@ -2,10 +2,10 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 entity display is
-    port (
-         btnD, btnC, btnB, btnA : in std_logic;
-         seg : out std_logic_vector(6 downto 0)
-    );
+     port (
+          btnD, btnC, btnB, btnA : in std_logic;
+          seg : out std_logic_vector(6 downto 0)
+     );
 end entity display;
 
 architecture Behavioral of display is
